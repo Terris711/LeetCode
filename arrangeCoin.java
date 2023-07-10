@@ -1,13 +1,10 @@
 public class arrangeCoin {
-    public int arrangeCoins(int n) {
-//        int i = 1;
-//        while (n > 0) {
-//            i++;
-//            n -= i;
-//        }
-//        return i - 1;
-//    }
 
+    public static void main(String[] args) {
+        System.out.println(new arrangeCoin(5));
+    }
+
+    public int arrangeCoins(int n) {
         int left = 0;
         int right = n;
         while (left <= right) {
@@ -24,4 +21,5 @@ public class arrangeCoin {
             return right;
         }
     }
+}
 
