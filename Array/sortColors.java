@@ -1,3 +1,5 @@
+package Array;
+
 public class sortColors {
     public void sortColors(int[] nums) {
         int[] arr = new int[3];

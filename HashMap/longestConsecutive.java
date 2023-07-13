@@ -1,3 +1,5 @@
+package HashMap;
+
 public class longestConsecutive {
     public int longestConsecutive(int[] nums) {
         HashSet<Integer> set = new HashSet<>();

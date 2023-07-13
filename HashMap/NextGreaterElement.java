@@ -1,3 +1,5 @@
+package HashMap;
+
 public class NextGreaterElement {
     public int[] nextGreaterElement(int[] nums1, int[] nums2) {
         Map<Integer, Integer> map = new HashMap(); //current element(key) + next element(value)

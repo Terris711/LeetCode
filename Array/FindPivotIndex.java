@@ -1,3 +1,5 @@
+package Array;
+
 public class FindPivotIndex {
     class Solution {
         public int pivotIndex(int[] nums) {

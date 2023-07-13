@@ -1,3 +1,5 @@
+package HashMap;
+
 public class isIsomorphic {
     public boolean isIsomorphic(String s, String t) {
         Map<Character, Character> map1 = new HashMap<>();

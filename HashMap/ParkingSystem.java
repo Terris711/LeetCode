@@ -1,3 +1,5 @@
+package HashMap;
+
 public class ParkingSystem {
     int big, medium, small;
 

@@ -1,3 +1,5 @@
+package Array;
+
 public class CanPlaceFlowers {
     boolean right;
     boolean left;

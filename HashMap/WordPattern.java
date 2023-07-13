@@ -1,3 +1,5 @@
+package HashMap;
+
 import java.util.*;
 
 public class WordPattern {
@@ -7,7 +9,7 @@ public class WordPattern {
 
         String[] words = s.split(" ");
 
-        if (words.length != pattern.length()){
+        if (words.length != pattern.length()){                                                                                                                                                                                                                                                                                                                  
             return false;
         }
 

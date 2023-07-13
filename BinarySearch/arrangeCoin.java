@@ -1,3 +1,5 @@
+package BinarySearch;
+
 public class arrangeCoin {
 
     public static void main(String[] args) {

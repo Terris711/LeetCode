@@ -1,3 +1,5 @@
+package Array;
+
 class MaximunNumberOfBalloons {
     public int maxNumberOfBalloons(String text) {
         int balloon[] = new int[5];
