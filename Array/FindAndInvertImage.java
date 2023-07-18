@@ -15,4 +15,6 @@ public class FindAndInvertImage {
         }
         return result;
     }
+
+    //Time complexity: O(m.n)
 }
