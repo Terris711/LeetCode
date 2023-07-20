@@ -8,7 +8,7 @@ public class gridGame {
         int down = 0;
 
         for (int i = 0; i < col - 2; i++){
-            down += grid[1][i];
+            down += grid[1][i]; 
         }
 
         int result = Math.max(down, right);
