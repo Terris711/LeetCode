@@ -15,7 +15,7 @@ public class DiagonalSum{
         return count;
     }
 
-    // O(?)
+    // O(n)
     public int diagonalSum(int[][] mat) {
         int sum = 0;
         int n = mat.length;
@@ -27,4 +27,5 @@ public class DiagonalSum{
         }
         return sum;
     }
+
 }
