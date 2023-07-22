@@ -19,4 +19,6 @@ public class Tribonacci {
         }
         return dp[2];
     }
+
+    //O(n)
 }
