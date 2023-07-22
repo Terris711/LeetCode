@@ -16,4 +16,7 @@ public class FindPeakElement {
         }
         return left;
     }
+
+    //Time complexity: O(logn)
+    //Space complexity: O(1)
 }
