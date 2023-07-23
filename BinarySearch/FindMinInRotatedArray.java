@@ -16,4 +16,5 @@ public class FindMinInRotatedArray {
         }
         return nums[right];
     }
+    //O(nlogn)
 }
