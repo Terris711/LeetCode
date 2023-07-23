@@ -1,5 +1,7 @@
 package SystemDesign;
 
+import java.util.ArrayList;
+
 public class TimeMap {
     HashMap<String, ArrayList<Pair<Integer, String>>> timeKeyMap;
 
@@ -42,4 +44,6 @@ public class TimeMap {
         }
         return timeKeyMap.get(key).get(right - 1).getValue();
     }
+
+    //O(n)
 }
