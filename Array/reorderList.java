@@ -34,4 +34,8 @@ public class reorderList {
 
         }
     }
+
+    //O(n) time complexity
+    // O(1) space complexity
+
 }
