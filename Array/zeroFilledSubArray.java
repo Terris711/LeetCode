@@ -15,4 +15,5 @@ public class zeroFilledSubArray {
         return count;
     }
     //O(n)
+    //O(1)
 }
