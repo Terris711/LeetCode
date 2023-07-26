@@ -8,4 +8,6 @@ public class TitleToNumber {
         }
         return answer;
     }
+
+    //O(n)
 }
