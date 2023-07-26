@@ -13,4 +13,6 @@ public class AddDigits {
         }
         return sum;
     }
+
+    //O(n)
 }
