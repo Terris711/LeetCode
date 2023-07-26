@@ -26,4 +26,5 @@ public class SummaryRanges {
         }
         return answer;
     }
+    //O(n)
 }
