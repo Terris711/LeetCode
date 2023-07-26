@@ -14,5 +14,5 @@ public class AddDigits {
         return sum;
     }
 
-    //O(n)
+    //O(n^2)
 }
