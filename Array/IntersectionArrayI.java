@@ -30,4 +30,6 @@ public class IntersectionArrayI {
         }
         return answer;
     }
+
+    //O(n)
 }
