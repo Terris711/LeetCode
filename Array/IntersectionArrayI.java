@@ -1,6 +1,8 @@
 package Array;
 
+import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 
 public class IntersectionArrayI {
@@ -31,5 +33,31 @@ public class IntersectionArrayI {
         return answer;
     }
 
+    //O(n)
+
+    public int[] intersectI(int[] nums1, int[] nums2) {
+        Map<Integer, Integer> map = new HashMap<>();
+
+        //Count occurences of array items
+        for (int i : nums1){
+            map.put(i, map.getOrDefault(i,0) + 1);
+        }
+
+        List<Integer> result = new ArrayList<>();
+        for (int i : nums2){
+            int count = map.getOrDefault(i,0);
+            if (count > 0){
+                result.add(i);
+            }
+            map.put(i, count - 1);
+        }
+
+        int[] answer = new int[result.size()];
+        int index = 0;
+        for (Integer i : result){
+            answer[index++] = i;
+        }
+        return answer;
+    }
     //O(n)
 }
