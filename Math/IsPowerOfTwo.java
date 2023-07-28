@@ -8,3 +8,5 @@ public class IsPowerOfTwo {
         else return isPowerOfTwo(n/2);
     }
 }
+
+//O(nlog)
