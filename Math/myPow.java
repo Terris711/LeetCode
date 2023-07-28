@@ -18,4 +18,5 @@ public class myPow {
             return x*myPow(x, (int)(temp - 1)); // x^(temp -1)*x
         }
     }
+    //O(1)
 }
