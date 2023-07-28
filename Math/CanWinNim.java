@@ -5,3 +5,4 @@ public class CanWinNim {
         return n % 4 != 0;
     }
 }
+//O(1)
