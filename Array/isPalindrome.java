@@ -12,4 +12,5 @@ public class isPalindrome {
         }
         return true;
     }
+    //O(n)
 }
