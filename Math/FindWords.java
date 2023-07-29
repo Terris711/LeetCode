@@ -1,5 +1,8 @@
 package Math;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+
 public class FindWords {
     public String[] findWords(String[] words) {
         HashMap<Character, Integer> map = new HashMap<>();
@@ -22,4 +25,6 @@ public class FindWords {
         }
         return list.toArray(new String[list.size()]);
     }
+
+    //O(n^2)
 }
