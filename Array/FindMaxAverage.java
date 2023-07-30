@@ -19,3 +19,4 @@ public class FindMaxAverage {
         return (double)maxSum/k;
     }
 }
+//O(n)
