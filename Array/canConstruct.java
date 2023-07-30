@@ -17,3 +17,4 @@ public class canConstruct {
         return true;
     }
 }
+//O(N)
