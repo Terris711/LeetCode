@@ -29,3 +29,5 @@ public class AddString {
         return result;
     }
 }
+
+//O(n)
