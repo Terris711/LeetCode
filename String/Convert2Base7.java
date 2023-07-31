@@ -5,3 +5,5 @@ public class Convert2Base7 {
         return Integer.toString(num, 7);
     }
 }
+
+//O(1)
