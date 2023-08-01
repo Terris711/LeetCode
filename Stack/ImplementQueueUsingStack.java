@@ -38,3 +38,5 @@ public class ImplementQueueUsingStack {
         return stackin.isEmpty() && stackout.isEmpty();
     }
 }
+
+//O(1)
