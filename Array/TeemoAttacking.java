@@ -14,3 +14,5 @@ public class TeemoAttacking {
         return answer;
     }
 }
+
+//O(n)
