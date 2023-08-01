@@ -28,3 +28,5 @@ public class FindLHS {
         return result;
     }
 }
+
+//O(n)
