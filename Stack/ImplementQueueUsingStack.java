@@ -6,7 +6,7 @@ public class ImplementQueueUsingStack {
     Stack<Integer> stackin = new Stack();
     Stack<Integer> stackout = new Stack();
 
-    public MyQueue() {
+    public void MyQueue() {
 
     }
 
