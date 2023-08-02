@@ -4,4 +4,5 @@ public class ToHexString {
     public String toHex(int num) {
         return Integer.toHexString(num);
     }
+    //O(1)
 }
