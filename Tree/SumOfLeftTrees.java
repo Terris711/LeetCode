@@ -16,3 +16,5 @@ public class SumOfLeftTrees {
         }
     }
 }
+
+//O(1)
