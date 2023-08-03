@@ -16,3 +16,4 @@ public class findLengthOfLCIS {
         return answer + 1;
     }
 }
+//O(n)
