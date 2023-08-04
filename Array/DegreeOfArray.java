@@ -24,3 +24,4 @@ public class DegreeOfArray {
         return minLen;
     }
 }
+//O(n)
