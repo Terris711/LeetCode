@@ -49,5 +49,5 @@ public class SelfDividingNumber {
         }
         return true;
     }
-    //O(n)
+    //O(n^2)
 }
