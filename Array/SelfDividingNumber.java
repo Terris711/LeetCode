@@ -27,4 +27,27 @@ public class SelfDividingNumber {
     }
 
     //O(n)
+
+    public List<Integer> selfDividingNumbers(int left, int right) {
+        List<Integer> answer = new ArrayList();
+        for (int i = left; i <= right; i++){
+            if (isSelfDividingNumber(i)){
+                answer.add(i);
+            }
+        }
+        return answer;
+    }
+
+    private boolean isSelfDividingNumber(int number){
+        int temp = number;
+        while (temp != 0){
+            int divisor = temp % 10;
+            if (divisor == 0 || number % divisor != 0){
+                return false;
+            }
+            temp /= 10;
+        }
+        return true;
+    }
+    //O(n)
 }
