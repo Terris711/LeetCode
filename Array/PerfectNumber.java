@@ -15,4 +15,22 @@ public class PerfectNumber {
         return tmp == num;
     }
     //O(n)
+
+    public boolean checkPerfectNumber(int num) {
+        if (num <= 1){
+            return false;
+        }
+
+        int tmp = 1;
+
+        for (int i = 2; i <= Math.sqrt(num); i++){
+            if (num % i == 0){
+                tmp += i;
+                if (i != num / i){
+                    tmp += num /i;
+                }
+            }
+        }
+        return tmp == num;
+    }
 }
