@@ -35,4 +35,20 @@ public class PerfectNumber {
     }
     //O(n)
 
+
+    public boolean checkPerfectNumber(int num) {
+        if (num % 2 != 0) return false;
+
+        int tmp = 1;
+        for (int i = 2; i * i <= num; i++){
+            if (num % i == 0){
+                tmp += i;
+                tmp += num / i
+            }
+        }
+
+        return tmp == num;
+    }
+    //O(n)
+
 }
