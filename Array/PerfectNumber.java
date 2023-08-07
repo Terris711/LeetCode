@@ -33,4 +33,6 @@ public class PerfectNumber {
         }
         return tmp == num;
     }
+    //O(n)
+
 }
