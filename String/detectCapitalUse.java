@@ -23,4 +23,6 @@ public class detectCapitalUse {
         return false;
     }
 
+    //O(n)
+
 }
