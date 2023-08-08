@@ -11,4 +11,6 @@ public class maxCount {
         }
         return minRow * minCol;
     }
+
+    //O(n)
 }
