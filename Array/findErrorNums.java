@@ -44,4 +44,5 @@ public class findErrorNums {
 
         return answer;
     }
+    //O(n)
 }
