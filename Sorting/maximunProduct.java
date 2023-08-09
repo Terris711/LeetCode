@@ -2,7 +2,7 @@ package Sorting;
 
 import java.util.Arrays;
 
-public class maximunProduct {
+public class maximumProduct {
     public int maximumProduct(int[] nums) {
         int n = nums.length;
         Arrays.sort(nums);
