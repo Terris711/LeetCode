@@ -1,12 +1,12 @@
 package MySQL;
 
 public class EarningMoreThanManager {
-    # Write your MySQL query statement below
-    SELECT name as Employee
-    FROM Employee e
-    WHERE salary > (SELECT salary FROM Employee WHERE id = e.managerId)
+    String answer = "SELECT name as Employee FROM Employee e " +
+                    "WHERE salary > (SELECT salary FROM Employee WHERE id = e.managerId);";
     //Slow
 
     //Fast
-
+    String answer1 = "SELECT e.name as Employee FROM Employee e " +
+                    "INNER JOIN employee m " +
+                    "ON e.managerId = m.id WHERE e.salary > m.salary;";
 }
