@@ -12,3 +12,4 @@ public class GETNTHHIGHESTSALARY {
             "END";
 }
 //1092
+
