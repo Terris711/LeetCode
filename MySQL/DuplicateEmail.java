@@ -6,3 +6,5 @@ public class DuplicateEmail {
             "GROUP BY email\n" +
             "HAVING COUNT(email) > 1;";
 }
+
+//931
