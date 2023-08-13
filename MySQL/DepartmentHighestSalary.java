@@ -7,3 +7,4 @@ public class DepartmentHighestSalary {
             "AND (departmentId, salary) IN (SELECT departmentId, max(salary) as Salary \n" +
             "                                FROM Employee GROUP BY departmentId);";
 }
+//1595
