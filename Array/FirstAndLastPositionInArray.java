@@ -36,3 +36,5 @@ public class FirstAndLastPositionInArray {
         }
     }
 }
+
+//O(logn)
