@@ -15,3 +15,5 @@ public class RemoveElement {
         }
     }
 }
+
+//O(n)
