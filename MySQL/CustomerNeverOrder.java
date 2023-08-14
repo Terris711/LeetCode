@@ -5,3 +5,4 @@ public class CustomerNeverOrder {
             "LEFT JOIN Orders o on c.id = o.customerId\n" +
             "WHERE customerId is null;";
 }
+//1764
