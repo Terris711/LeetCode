@@ -56,3 +56,5 @@ public class Solution {
         return result;
     }
 }
+
+//O(n) with c#
