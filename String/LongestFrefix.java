@@ -24,4 +24,5 @@ public class LongestFrefix {
             return start.substring(0,index);
         }
     }
+    //O(n) with java
 }
