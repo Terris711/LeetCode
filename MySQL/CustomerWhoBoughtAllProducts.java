@@ -5,3 +5,4 @@ public class CustomerWhoBoughtAllProducts {
             "GROUP BY customer_id\n" +
             "HAVING COUNT(DISTINCT product_key) = (SELECT COUNT(product_key) FROM Product);";
 }
+//1083
