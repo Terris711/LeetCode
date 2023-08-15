@@ -44,3 +44,4 @@ public class Solution {
         return prefix;
     }
 }
+//O(n^2) with c#
