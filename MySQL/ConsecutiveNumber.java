@@ -7,3 +7,4 @@ public class ConsecutiveNumber {
             "JOIN Logs as log3 ON log1.id = log3.id - 2\n" +
             "WHERE log1.num = log2.num and log1.num = log3.num";
 }
+//1572
