@@ -14,3 +14,5 @@ public class RemoveDuplicateElement {
         }
     }
 }
+
+//O(n)
