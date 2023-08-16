@@ -32,4 +32,4 @@ public class Solution {
         return stack.Count == 0;
     }
 }
-
+//O(n) with C#
