@@ -17,4 +17,4 @@ public class ValidParenthesis {
     }
 }
 
-//O(1)
+//O(n)
