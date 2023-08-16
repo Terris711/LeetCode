@@ -16,3 +16,5 @@ public class ValidParenthesis {
         }
     }
 }
+
+//O(1)
