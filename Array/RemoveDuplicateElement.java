@@ -15,4 +15,4 @@ public class RemoveDuplicateElement {
     }
 }
 
-//O(n)
+//O(n) with Java
