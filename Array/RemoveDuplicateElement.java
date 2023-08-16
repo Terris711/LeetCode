@@ -29,3 +29,4 @@ public class Solution {
         return j;
     }
 }
+//O(n) with C#
