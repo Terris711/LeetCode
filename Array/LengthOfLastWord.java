@@ -17,3 +17,11 @@ public class LengthOfLastWord {
 }
 
 // O(n) Java
+
+public class Solution {
+    public int LengthOfLastWord(string s) {
+        s = s.TrimEnd();
+        string[] temp = s.Split(' ');
+        return temp[temp.Length - 1].Length;
+    }
+}
