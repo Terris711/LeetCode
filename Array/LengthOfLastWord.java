@@ -25,3 +25,5 @@ public class Solution {
         return temp[temp.Length - 1].Length;
     }
 }
+
+//O(n) with C#
