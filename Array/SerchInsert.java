@@ -33,3 +33,5 @@ public class Solution {
         return start;
     }
 }
+
+//O(n) using binary search with C#
