@@ -65,4 +65,4 @@ public class Solution {
     }
 }
 
-// O(n) using C#
+// O(n) using C# same approach with Java
