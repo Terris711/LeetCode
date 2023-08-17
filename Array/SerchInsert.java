@@ -16,3 +16,5 @@ public class SerchInsert {
         }
     }
 }
+
+// O(nlogn) with java
