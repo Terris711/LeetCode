@@ -18,3 +18,5 @@ public class SimplifyPath {
         }
     }
 }
+
+//O(n)
