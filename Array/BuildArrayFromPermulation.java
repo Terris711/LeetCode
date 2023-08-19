@@ -28,6 +28,8 @@ public class Solution {
     }
 }
 
+//Java optimal
+
 public class Solution {
     public int[] BuildArray(int[] nums) {
         int [] arr = new int[nums.Length];
