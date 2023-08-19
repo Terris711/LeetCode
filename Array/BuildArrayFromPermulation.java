@@ -25,3 +25,16 @@ public class Solution {
         return arr;
     }
 }
+
+public class Solution {
+    public int[] BuildArray(int[] nums) {
+        for (int i = 0; i < nums.Length; i++){
+            nums[i] += (nums[nums[i]] % nums.Length) * nums.Length;
+        }
+
+        for (int i = 0; i < nums.Length; i++){
+            nums[i] = nums[i] / nums.Length;
+        }
+        return nums;
+    }
+}
