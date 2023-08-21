@@ -20,3 +20,5 @@ public class CountAndSay {
         }
     }
 }
+
+//O(n)
