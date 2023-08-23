@@ -6,3 +6,6 @@ public class EmployeeBonus {
             "LEFT JOIN Bonus AS b ON b.empId = e.empId\n" +
             "WHERE b.bonus < 1000 OR b.bonus IS NULL;";
 }
+
+
+//
