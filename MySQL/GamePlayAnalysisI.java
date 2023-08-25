@@ -6,3 +6,5 @@ public class GamePlayAnalysisI {
             "FROM Activity\n" +
             "GROUP BY player_id";
 }
+
+// SQL
