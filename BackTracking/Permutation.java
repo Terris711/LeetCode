@@ -31,3 +31,4 @@ public class Permutation {
         }
     }
 }
+//O(n)
