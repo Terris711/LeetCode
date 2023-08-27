@@ -5,3 +5,5 @@ public class ProductSalesAnalysisI {
             "LEFT JOIN Product as p\n" +
             "ON p.product_id = s.product_id;";
 }
+
+//3009
