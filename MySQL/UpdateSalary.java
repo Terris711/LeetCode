@@ -7,3 +7,4 @@ public class UpdateSalary {
             "    ELSE 'm'\n" +
             "END;";
 }
+//56.98%
