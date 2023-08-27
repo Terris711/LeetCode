@@ -5,3 +5,5 @@ public class FindSuingleNumber {
             "SELECT max(num) as num FROM Mynumbers\n" +
             "WHERE num not in (SELECT num FROM Mynumbers GROUP BY num HAVING COUNT(num) > 1)";
 }
+
+//1014
