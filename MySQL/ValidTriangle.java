@@ -5,3 +5,4 @@ public class ValidTriangle {
             "case WHEN (x+y) > z AND (x+z) > y AND (y+z) > x THEN 'Yes' else 'No' end as triangle\n" +
             "FROM Triangle";
 }
+// 706
