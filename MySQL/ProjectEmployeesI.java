@@ -7,3 +7,4 @@ public class ProjectEmployeesI {
             "ON p.employee_id = e.employee_id\n" +
             "GROUP BY p.project_id;";
 }
+//1686 not that fast
