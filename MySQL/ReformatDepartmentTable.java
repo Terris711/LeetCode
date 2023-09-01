@@ -18,3 +18,4 @@ public class ReformatDepartmentTable {
             "FROM Department\n" +
             "GROUP BY id;\n";
 }
+//1076
