@@ -9,4 +9,4 @@ public class AverageSellingPrice {
             "GROUP BY product_id;";
 }
 
-// Inner join should be faster than left join
+// Inner join should be faster than left joinfg
