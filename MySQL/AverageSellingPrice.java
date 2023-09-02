@@ -8,3 +8,5 @@ public class AverageSellingPrice {
             "AND u.purchase_date BETWEEN start_date AND end_date\n" +
             "GROUP BY product_id;";
 }
+
+// Inner join should be faster than left join
