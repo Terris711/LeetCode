@@ -11,3 +11,5 @@ public class bulbSwitch {
         }
     }
 }
+
+//O(n)
