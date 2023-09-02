@@ -12,4 +12,14 @@ public class bulbSwitch {
     }
 }
 
+
+
+public class bulbSwitch2 {
+    class Solution2 {
+        public int bulbSwitch(int n) {
+            return (int) Math.sqrt(n);
+        }
+    }
+}
+
 //O(n)
