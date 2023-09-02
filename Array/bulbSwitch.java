@@ -11,7 +11,7 @@ public class bulbSwitch {
         }
     }
 }
-
+//O(n)
 
 
 public class bulbSwitch2 {
@@ -21,5 +21,5 @@ public class bulbSwitch2 {
         }
     }
 }
+//O(nlogn)
 
-//O(n)
