@@ -9,3 +9,6 @@ public class MonthlyTransactionI {
             "FROM Transactions\n" +
             "GROUP BY month, country;";
 }
+
+
+// 1235
