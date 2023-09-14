@@ -25,3 +25,5 @@ public class Island {
         }
     }
 }
+
+//O(n^2)
