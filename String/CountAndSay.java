@@ -21,4 +21,4 @@ public class CountAndSay {
     }
 }
 
-// Test
+//O(n)
