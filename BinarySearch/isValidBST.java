@@ -18,3 +18,12 @@ public class isValidBST {
             return isValidBST(root.left, minVal, root.val) && isValidBST(root.right, root.val,maxVal);
         }
 }
+
+
+//    public boolean isValidBST(TreeNode root) {
+//        if (root == null) return true;
+//        if (root.left != null && root.right != null) return root.val > root.left.val && isValidBST(root.left) && root.val < root.right.val && isValidBST(root.right);
+//        if (root.left != null) return root.val > root.left.val && isValidBST(root.left);
+//        if (root.right != null) return root.val < root.right.val && isValidBST(root.right);
+//        return true;
+//    }
